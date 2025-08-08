@@ -1,7 +1,7 @@
 :root {
     --white: #ffffff;
     --black: #000000;
-    --blue: #00b7ff;
+    --blue: rgb(46, 228, 228);
 }
 
 *{
@@ -34,6 +34,11 @@ body {
     transition: all .3s ease-in-out;
 }
 .link:hover, .link:focus {
+    color: var(--blue);
+    border-color: var(--blue);
+}
+
+.linkActive {
     color: var(--blue);
     border-color: var(--blue);
 }

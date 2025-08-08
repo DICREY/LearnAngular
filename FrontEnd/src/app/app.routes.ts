@@ -2,14 +2,15 @@
 import { Routes } from '@angular/router';
 
 // Imports 
-import { HomeComponent } from '../Component/Home/home.component'
-import { CounterComponent } from '../Component/Pages/counter/counter.component';
-import { HeroComponent } from '../Component/Pages/Hero/hero.component';
+import { HomeComponent } from './Pages/Home/home.component'
+import { CounterComponent } from './Pages/counter/counter.component';
+import { HeroComponent } from './Pages/Hero/hero.component';
+import { DragonBallComponent } from './Pages/dragon-ball/dragon-ball.component';
 
 // Routes
 export const routes: Routes = [
     {
-        path:  '',
+        path:  'counter',
         component: CounterComponent
     },
     {
@@ -19,6 +20,10 @@ export const routes: Routes = [
     {
         path:  'hero',
         component: HeroComponent
+    },
+    {
+        path:  'dragonball',
+        component: DragonBallComponent
     },
     {
         path:  '**',
