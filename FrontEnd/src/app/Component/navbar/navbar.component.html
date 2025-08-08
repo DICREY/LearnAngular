@@ -1,0 +1,15 @@
+<header class="mainHeader">
+  <nav>
+    <a 
+        [routerLink]="['/home']"
+        [routerLinkActive]="['linkActive']"
+        class="link"
+        [routerLinkActiveOptions]="{ exact: true }"
+    >Home</a>
+    <!-- añadir la clase solo a la ruta exacta [routerLinkActiveOptions]="{ exact: true }"-->
+
+    <a routerLink="/counter" [routerLinkActive]="['linkActive']" class="link">Counter</a>
+    <a routerLink="/hero" [routerLinkActive]="['linkActive']" class="link">Hero</a>
+    <a routerLink="/dragonball" [routerLinkActive]="['linkActive']" class="link">DragonBall</a>
+  </nav>
+</header>
