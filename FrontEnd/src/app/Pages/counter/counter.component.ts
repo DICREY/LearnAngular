@@ -21,4 +21,8 @@ export class CounterComponent {
         this.counter = 0
         this.counterSignal.set(0)
     }
+
+    test (name: string = ''):string {
+        return 'golam'
+    }
 }

@@ -4,7 +4,7 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 
 // Decors 
 @Component({
-  selector: 'app-navbar',
+  selector: 'nav-bar',
   imports: [
     RouterLink, RouterLinkActive
   ],

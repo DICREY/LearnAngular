@@ -18,15 +18,21 @@ export const routes: Routes = [
         component: HomeComponent
     },
     {
+        path:  'home',
+        component: HomeComponent
+    },
+    {
         path:  'hero',
-        component: HeroComponent
+        component: HeroComponent,
     },
     {
         path:  'dragonball',
-        component: DragonBallComponent
+        component: DragonBallComponent,
+        title: 'Dragon'
     },
     {
         path:  '**',
         redirectTo: 'home'
     },
+    
 ];
